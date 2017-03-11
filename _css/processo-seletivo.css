@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+div#titulo{
+	margin-top: 50px;
+}
+
+div#titulo h1{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 55pt;
+	margin-bottom: -20px;
+}
+
+div#titulo h2{
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 25pt;
+}
+
+table#tabela {
+	border-style: double;
+	border-color: #00FF00;
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	width: 60%;
+}
+
+table#tabela tr{
+	border-style: double;
+	border-color: #00FF00;
+}
+
+table#tabela td{
+	padding: 0px;
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 30pt;
+	color: #FFFFFF;
+	text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+}
+
+table#tabela td#titulo{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 25pt;
+	color: #ffFFFF;
+	letter-spacing: 2px;
+}
+
+/*BOTAO*/
+div#botao {
+	text-align: center;
+	margin-top: 50px;
+	padding: 30px;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 20pt;
+}
+
+div#botao a{
+	text-decoration: none;
+	border-style: solid;
+	padding: 15px;
+	background-color: #FF0000;
+	margin: 20px;
+    display: inline-block;
+}
+
+div#botao a:hover{
+	color: #FF0000;
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+div#botao a#botao2{
+	background-color: rgb(57,89,82);
+}
+
+div#botao a#botao2:hover{
+	color: rgb(57,89,82);
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+div#botao a.botao-fb{
+	background-color: rgb(59, 89, 152);
+}
+
+div#botao a.botao-fb:hover{
+	color: rgb(59, 89, 152);
+	background-color: #ffffff;
+	transition: 0.5s;
+}
+
+div#botao a.botao-tw{
+	background-color: rgb(85, 172, 238);
+}
+
+div#botao a.botao-tw:hover{
+	color: rgb(85, 172, 238);
+	background-color: #ffffff;
+	transition: 0.5s;
+}

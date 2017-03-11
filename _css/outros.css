@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+/*  MENSAGEM DE ERRO    */
+
+div#erro{
+    margin-left: 30%;
+}
+
+div#erro p{
+    font-family: 'Ubuntu Mono', monospace;
+    color: #55ff55;
+    font-size: 15pt;
+    margin-bottom: -50px;
+}
