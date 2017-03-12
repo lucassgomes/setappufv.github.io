@@ -2055,9 +2055,7 @@ html {
 .tamanho-caixa{
 	height: 240px;
 }
-.tamanho-caixa p{
-	text-align: justify;
-}
+
 .texto p{
 	text-align: justify;
 }
