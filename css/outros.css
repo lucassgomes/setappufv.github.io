@@ -3,7 +3,8 @@
 /*  MENSAGEM DE ERRO    */
 
 div#erro{
-    margin-left: 30%;
+    margin-top: 70px;
+    max-width:500px;
 }
 
 div#erro p{
@@ -11,4 +12,5 @@ div#erro p{
     color: #55ff55;
     font-size: 15pt;
     margin-bottom: -50px;
+    text-align: left;
 }
