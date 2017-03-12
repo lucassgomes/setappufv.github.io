@@ -2551,3 +2551,14 @@ h1#setapp span{
 a#setapp:hover{
     text-decoration: none;
 }
+
+h1#logo{
+    font-family: 'Righteous', cursive;
+    color: rgb(0,0,0);
+    text-shadow: -.5px 0 3px white, 0 .5px 3px white, .5px 0 3px white, 0 -1px 3px white;
+    font-size: 40pt;
+    letter-spacing: 2px;
+}
+h1#logo span{
+    color: rgb(28, 73, 110);
+}
