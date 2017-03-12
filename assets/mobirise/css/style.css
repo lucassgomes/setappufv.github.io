@@ -2562,3 +2562,16 @@ h1#logo{
 h1#logo span{
     color: rgb(28, 73, 110);
 }
+
+/*	MAPA do index.html	*/
+iframe#mapa {
+    width: 500px;
+    height: 300px;
+    border: 0;
+}
+
+@media(max-width: 995px){
+    iframe#mapa{
+        width: 100%;
+    }
+}
