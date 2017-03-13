@@ -22,16 +22,16 @@ div#titulo h2{
 }
 
 table#tabela {
-	border-style: double;
-	border-color: rgb(57,89,82);
-	background-color: rgba(0,0,0,0.5);
+	border-style: solid;
+    	border-color: rgb(209,209,209);
+	background-color: rgba(0,0,0, 0.4);
 	color: #FFFFFF;
 	width: 60%;
 }
 
 table#tabela tr{
-	border-style: double;
-	border-color: rgb(57,89,82);
+	border-style: solid;
+	border-color: rgb(209,209,209);
 }
 
 table#tabela td{
@@ -54,7 +54,7 @@ table#tabela td#titulo{
 /*BOTAO*/
 div#botao {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 0px;
 	padding: 30px;
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 20pt;
