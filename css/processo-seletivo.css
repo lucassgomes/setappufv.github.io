@@ -104,3 +104,27 @@ div#botao a.botao-tw:hover{
 	background-color: #ffffff;
 	transition: 0.5s;
 }
+
+div#botaoconstrucao{
+	text-align: center;
+	margin-top: 0px;
+	padding: 30px;
+	font-family: 'Righteous';
+	font-size: 15pt;
+}
+
+div#botaoconstrucao a{
+	text-decoration: none;
+	padding: 15px;
+	margin: 20px;
+	display: inline-block;
+	background-color: transparent;
+	color: #000;
+	border: black 2px;
+	border-style: solid;
+}
+
+div#botaoconstrucao a:hover{
+	padding: 15px 50px 15px 50px;
+	transition: .5s;
+}
