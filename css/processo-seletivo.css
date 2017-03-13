@@ -17,7 +17,7 @@ div#titulo h1{
 
 @media(max-width: 450px){
 	div#titulo h1{
-		font-size: 100%;
+		font-size: 30pt;
 	}
 }
 div#titulo h2{
