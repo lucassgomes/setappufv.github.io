@@ -2,6 +2,10 @@ html {
   position: relative;
   min-height: 100%;
 }
+body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
 .mbr-transparent {
   opacity: 0;
   filter: alpha(opacity=0);
