@@ -23,7 +23,7 @@ div#titulo h2{
 
 table#tabela {
 	border-style: double;
-	border-color: #00FF00;
+	border-color: rgb(57,89,82);
 	background-color: rgba(0,0,0,0.5);
 	color: #FFFFFF;
 	width: 60%;
