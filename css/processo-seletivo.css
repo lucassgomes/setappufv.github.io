@@ -31,7 +31,7 @@ table#tabela {
 
 table#tabela tr{
 	border-style: double;
-	border-color: #00FF00;
+	border-color: rgb(57,89,82);
 }
 
 table#tabela td{
