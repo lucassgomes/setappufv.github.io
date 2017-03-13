@@ -1889,7 +1889,7 @@ html {
 }
 .mbr-buttons--activated .mbr-buttons__link {
   font-size: 25px;
-  padding: 10px 10px 2px;
+  padding: 10px 5px 2px;
 }
 .mbr-buttons--activated .mbr-buttons__btn {
   font-size: 15px;
