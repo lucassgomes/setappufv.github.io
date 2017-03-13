@@ -2,10 +2,6 @@ html {
   position: relative;
   min-height: 100%;
 }
-body{
-	max-width: 100%;
-	overflow-x: hidden;
-}
 .mbr-transparent {
   opacity: 0;
   filter: alpha(opacity=0);
@@ -2648,4 +2644,15 @@ a#botaosecao4:hover {
     padding: 10px 45px 10px 45px;
     transition: .5s;
     text-decoration: none;
+}
+
+
+div#txtProcessoSeletivo{
+    width: 500px;
+}
+
+@media (max-width: 600px){
+	div#txtProcessoSeletivo{
+		width:100%;
+	}
 }
