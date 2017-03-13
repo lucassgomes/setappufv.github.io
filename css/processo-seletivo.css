@@ -12,6 +12,7 @@ div#titulo h1{
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 55pt;
 	margin-bottom: -20px;
+	max-width: 100%;
 }
 
 div#titulo h2{
@@ -19,6 +20,7 @@ div#titulo h2{
 	color: #ffffff;
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 25pt;
+	max-width: 100%;
 }
 
 table#tabela {
@@ -27,6 +29,7 @@ table#tabela {
 	background-color: rgba(0,0,0, 0.4);
 	color: #FFFFFF;
 	width: 60%;
+	max-width: 100%;
 }
 
 table#tabela tr{
