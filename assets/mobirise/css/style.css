@@ -146,6 +146,22 @@ html {
   border-color: #fff;
   color: #252525;
 }
+.btn-default2 {
+    background-color: #D23838;
+    border-color: #fff;
+    color: #fff;
+}
+.btn-default2:hover,
+.btn-default2:focus,
+.btn-default2.focus,
+.btn-default2:active,
+.btn-default2.active,
+.open > .btn-default2 {
+    border-color: #D23838;
+    color: #D23838;
+    background-color: #FFFFFF;
+    transition: .6s;
+}
 .content-2 {
   overflow: hidden;
   padding: 30px 20px 0px;
