@@ -13,8 +13,8 @@ div#erro p{
     font-family: 'Ubuntu Mono', monospace;
     color: white; /*#55ff55;*/
     font-size: 15pt;
-    margin-bottom: -40px;
-    text-align: left;
+    margin-bottom: -30px;
+    text-align: center;
 }
 
 @media(max-width:500px;){
