@@ -15,16 +15,20 @@ div#titulo h1{
 	margin-bottom: -20px;
 }
 
-@media(max-width: 450px){
-	div#titulo h1{
-		font-size: 30pt;
-	}
-}
 div#titulo h2{
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 25pt;
+}
+
+@media(max-width: 450px){
+	div#titulo h1{
+		font-size: 30pt;
+	}
+	div#titulo h2{
+		font-size: 15pt;
+	}
 }
 
 table#tabela {
@@ -53,6 +57,12 @@ table#tabela td{
 	font-size: 30pt;
 	color: #FFFFFF;
 	text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000;
+}
+
+@media (max-width: 450px){
+	table#tabela td{
+		font-size: 15pt;
+	}
 }
 
 table#tabela td#titulo{
