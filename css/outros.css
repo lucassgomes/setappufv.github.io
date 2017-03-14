@@ -6,7 +6,9 @@ div#erro{
     margin-top: 70px;
     width: 600px
     max-width: 100%;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    margin-left:-50px;
 }
 
 div#erro p{
@@ -20,5 +22,7 @@ div#erro p{
 @media(max-width:500px;){
     div#erro p{
         font-size: 10pt;
+        position: static;
+        margin-left: 0px;
     }
 }
