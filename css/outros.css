@@ -6,6 +6,7 @@ div#erro{
     margin-top: 70px;
     width: 600px
     max-width: 100%;
+    display: block;
 }
 
 div#erro p{
