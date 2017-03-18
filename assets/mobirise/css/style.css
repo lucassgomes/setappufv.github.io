@@ -2563,7 +2563,7 @@ h1#setapp{
     font-family: 'Righteous', cursive;
     color: rgb(0,0,0);
     text-shadow: -.5px 0 3px white, 0 .5px 3px white, .5px 0 3px white, 0 -1px 3px white;
-    font-size: 40pt;
+    font-size: 25pt;
     letter-spacing: 2px;
 	margin-top: 5px;
 }
