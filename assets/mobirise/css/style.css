@@ -2565,6 +2565,7 @@ h1#setapp{
     text-shadow: -.5px 0 3px white, 0 .5px 3px white, .5px 0 3px white, 0 -1px 3px white;
     font-size: 40pt;
     letter-spacing: 2px;
+	margin-top: 5px;
 }
 h1#setapp span{
     color: rgb(28, 73, 110);
