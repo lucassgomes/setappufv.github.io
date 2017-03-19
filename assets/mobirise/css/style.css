@@ -2559,8 +2559,13 @@ figure.snip1104.hover:before {
 }
 
 /*    LOGO SETAPP h1     */
+@font-face {
+    font-family: fonteTitulo;
+    src: url(Righteous-Regular.ttf);
+}
+
 h1#setapp{
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', fonteTitulo, sans-serif;
     color: rgb(0,0,0);
     text-shadow: -.5px 0 3px white, 0 .5px 3px white, .5px 0 3px white, 0 -1px 3px white;
     font-size: 25pt;
