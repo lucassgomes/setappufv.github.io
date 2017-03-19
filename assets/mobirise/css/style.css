@@ -769,7 +769,7 @@ html {
 }
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
-  height: 74px;
+  height: 90px;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
@@ -823,28 +823,30 @@ html {
 .mbr-navbar--xl .mbr-navbar__container {
   height: 152px;
 }
-.mbr-navbar--short .mbr-navbar__brand-link:after,
-.mbr-navbar--short .mbr-navbar__brand-img {
+.mbr-navbar--short .mbr-navbar__brand-link:after {
   height: 40px;
+}
+.mbr-navbar--short .mbr-navbar__brand-img {
+  height: 74px;
 }
 .mbr-navbar--short:before,
 .mbr-navbar--short .mbr-navbar__container {
   height: 64px;
 }
 .mbr-navbar--short .mbr-navbar__container {
-  padding: 12px 0;
+  padding: 5px 0;
 }
 @media (max-width: 767px) {
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
-    height: 31px;
+    height: 50px;
   }
   .mbr-navbar--short:before,
   .mbr-navbar--short .mbr-navbar__container {
     height: 45px;
   }
   .mbr-navbar--short .mbr-navbar__container {
-    padding: 7px 0;
+    padding: 2px 0;
   }
 }
 .mbr-navbar__brand-img {
