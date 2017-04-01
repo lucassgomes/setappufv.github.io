@@ -64,3 +64,25 @@ input[name='panel']:checked + .collapsible {
   overflow: auto;
   height: 200px; /* needs a numeric value here to keep transition */
 }
+
+.botao-setores{
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  line-height: 1em;
+  border: solid black thin;
+  padding: 10px 20px 10px 15px;
+  background-color: rgb(28, 73, 110);
+  color: white;
+}
+.botao-setores2{
+  padding: 10px 15px 10px 20px;
+}
+.botao-setores:hover{
+  background-color: hsl(200, 96%, 40%);
+  border-color: hsl(200, 96%, 40%);
+  color: white;
+  transition: .5s;
+}
